@@ -38,9 +38,11 @@
 
 <h3>Developed By: KARTHIKEYAN R</h3>
 <h3>Register Number: 212222240046</h3>
-<h3>Program</h3>h3
+<h3>Program</h3>
 
-``` import random
+```
+
+import random
 class VacuumCleanerAgent:
     def __init__(self): # Initialize the agent's state (location and dirt status)
         self.location = "A"  # Initial location (can be "A" or "B")
@@ -87,15 +89,23 @@ agent.print_status()
 agent.perform_action("suck")
 agent.print_status()
 agent.perform_action("nothing")
-agent.print_status() ```
-<h3>Output</h3>
-```Location: A, Dirt Status: {'A': True, 'B': True}, Perfomance Measure: -1         
+agent.print_status()
+
+```
+
+
+## Output:
+```
+
+Location: A, Dirt Status: {'A': True, 'B': True}, Perfomance Measure: -1         
 Sucked dirt in location A
 Location: A, Dirt Status: {'A': False, 'B': True}, Perfomance Measure: 9
 Location: B, Dirt Status: {'A': False, 'B': True}, Perfomance Measure: 8
 Sucked dirt in location B
 Location: B, Dirt Status: {'A': False, 'B': False}, Perfomance Measure: 18
-Location: B, Dirt Status: {'A': False, 'B': False}, Perfomance Measure: 18 ```
-<h3>Result</h3>
+Location: B, Dirt Status: {'A': False, 'B': False}, Perfomance Measure: 18 
+
+```
+## Result:
 Thus the Developing AI Agent with PEAS Description was implemented using python programming.
 
